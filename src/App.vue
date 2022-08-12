@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <nav>
+    <!-- <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
-    </nav>
+    </nav> -->
     <router-view/>
   </div>
 </template>
@@ -14,7 +14,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: white;
+  min-height: 100vh;
+  background-image: url('@/assets/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav {
